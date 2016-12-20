@@ -1,0 +1,19 @@
+﻿<Window x:Class="KyGreenPetServer.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:KyGreenPetServer"
+        mc:Ignorable="d"
+        Title="硬件演示服务端" Height="398" Width="500">
+    <Grid>
+        <Button x:Name="btnOpen" Content="监听" HorizontalAlignment="Left" Margin="10,35,0,0" VerticalAlignment="Top" Width="75" Height="30" Click="btnOpen_Click"/>
+        <TextBox x:Name="textBoxSend" HorizontalAlignment="Left" Height="30" Margin="10,167,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="130" Text="t12a34s" VerticalContentAlignment="Center"/>
+        <Button x:Name="btnClose" Content="Close" HorizontalAlignment="Left" Margin="10,105,0,0" VerticalAlignment="Top" Width="75" Height="30" Click="btnClose_Click"/>
+        <Button x:Name="btnSend" Content="send" HorizontalAlignment="Left" Margin="155,167,0,0" VerticalAlignment="Top" Width="75" Height="30" Click="btnSend_Click"/>
+        <ListBox x:Name="ListBoxCommunicationText" Height="165" Margin="250,10,10,0" VerticalAlignment="Top"/>
+        <ListBox x:Name="ListBoxControlText" Height="179" Margin="250,180,9.6,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="textBoxIP" HorizontalAlignment="Left" Height="28" Margin="110,35,0,0" TextWrapping="Wrap" Text="192.168.4.1" VerticalAlignment="Top" Width="120" VerticalContentAlignment="Center"/>
+
+    </Grid>
+</Window>
