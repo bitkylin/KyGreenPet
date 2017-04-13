@@ -14,8 +14,8 @@
       android:layout_height="40dp"
       android:background="@color/colorAccent"
       app:enableKyNavigationIcon="false"
-      app:title="绿色萌宠"
       app:setRightButton="@mipmap/icon_toolbar_share"
+      app:title="绿色萌宠"
       />
   <android.support.v7.widget.CardView
       android:layout_width="match_parent"
@@ -166,6 +166,14 @@
     </LinearLayout>
 
   </android.support.v7.widget.CardView>
+
+  <Button
+      android:id="@+id/btnLogCatTest"
+      android:text="LogCat 测试"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center_horizontal"
+      />
 </LinearLayout>
     <!--<Button-->
 
